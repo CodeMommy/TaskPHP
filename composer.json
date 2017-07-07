@@ -25,7 +25,12 @@
       "CodeMommy\\TaskPHP\\": "source/"
     }
   },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
   "require": {
-    "php": ">=5.3.0"
+    "PHP": ">=5.3.0",
+    "League/CommonMark": "0.15.*",
+    "matthiasmullie/minify": "1.3.*"
   }
 }

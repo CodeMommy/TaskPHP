@@ -7,6 +7,10 @@
 
 namespace CodeMommy\TaskPHP;
 
+/**
+ * Class Task
+ * @package CodeMommy\TaskPHP
+ */
 class Task
 {
     private static $task   = array();

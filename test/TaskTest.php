@@ -8,11 +8,11 @@ require_once(__DIR__ . '/../vendor/autoload.php');
 
 use CodeMommy\TaskPHP\Task;
 
-function demo()
+function test()
 {
-    echo 'demo';
+    echo 'test';
 }
 
-Task::config('Task Demo', '1.0.0');
-Task::add('demo', 'Demo', 'demo');
+Task::config('Task Test', '1.0.0');
+Task::add('test', 'Test', 'test');
 Task::run();
