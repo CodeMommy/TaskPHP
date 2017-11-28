@@ -29,9 +29,9 @@ class PHP
     {
         system(sprintf('start http://localhost'));
         if (empty($path)) {
-            system(sprintf('php -S 0.0.0.0:80 -t %s', $path));
-        } else {
             system(sprintf('php -S 0.0.0.0:80'));
+        } else {
+            system(sprintf('php -S 0.0.0.0:80 -t %s', $path));
         }
         return 'http://localhost';
     }
